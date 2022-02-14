@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-DFDFDF {
+    border-color: #dfdfdf;
+}
+
+.text-404041 {
+    color: #404041;
+}
