@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/7681d2c891.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
 
+<body class="mx-6 lg:mx-40">
     <!-- Header for navbar -->
     <header>
-        <nav class="bg-transparent my-4">
-            <div class="flex justify-between items-center mx-2 lg:mx-10">
+        <nav class="bg-transparent my-4 ">
+            <div class="flex justify-between items-center">
+
+                <!-- Menu and Dropdown -->
                 <div>
                     <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex px-4 py-3 items-center text-sm text-gray-500 lg:hidden hover:bg-gray-100 " aria-controls="mobile-menu-2" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
@@ -34,6 +39,7 @@
                     </div>
                 </div>
 
+                <!-- Besnik Logo -->
                 <div class="self-center">
                     <button href="#">
                         <svg width="83" height="15" viewBox="0 0 83 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,6 +52,8 @@
                             </svg> 
                     </button>                   
                 </div>
+
+                <!-- Lock Key Logo -->
                 <div>
                     <a href="#" class="">
                         <button class="px-4 py-2 border-custom border border-DFDFDF rounded-full"><i class="fa-solid fa-lock text-404041"></i></button>
@@ -53,6 +61,21 @@
                 </div>
             </div>
           </nav>
+
+          <!-- Header Content -->
+          <div class="mt-24 lg:flex lg:justify-between">
+            <div class="text-center lg:text-left">
+                <div class="">
+                  <p class="headline text-6xl tracking-normal">Banking<br> more smart</p>
+                  <p class="my-8 text-535354 text-xl">Meet the only spend management <br> platform and corporate card</p>
+                <i class="fa-solid fa-arrow-right p-4 bg-black text-white m-0"></i>
+                <a href="#" class="font-bold pl-4 pr-10 py-3">Get your card</a>
+                </div>
+            </div>
+            <div class="mt-8">
+                <img src="..\assets\card.png" alt="" class="mx-auto">
+            </div>
+          </div>
     </header>
 </body>
 </html>

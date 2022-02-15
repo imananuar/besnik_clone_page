@@ -9,3 +9,23 @@
 .text-404041 {
     color: #404041;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.headline {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
+    line-height: 4.5rem;
+}
+
+.text-535354 {
+    color: #535354;
+}
+
+.ellipse {
+    border: 3px solid #FF8A1F;
+    border-radius: 9999px;
+}
