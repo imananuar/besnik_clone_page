@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/7681d2c891.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500&family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
-<body class="mx-6 lg:mx-40">
+<body>
     <!-- Header for navbar -->
-    <header>
+    <header class="mx-6 lg:mx-32">
         <nav class="bg-transparent my-4 ">
             <div class="flex justify-between items-center">
 
@@ -54,28 +55,82 @@
                 </div>
 
                 <!-- Lock Key Logo -->
-                <div>
+                <div class="lg:pl-52">
                     <a href="#" class="">
-                        <button class="px-4 py-2 border-custom border border-DFDFDF rounded-full"><i class="fa-solid fa-lock text-404041"></i></button>
+                        <button class="px-4 py-2 border-custom border border-gray-300 rounded-full"><i class="fa-solid fa-lock text-404041"></i></button>
                     </a>
                 </div>
             </div>
           </nav>
 
           <!-- Header Content -->
-          <div class="mt-24 lg:flex lg:justify-between">
-            <div class="text-center lg:text-left">
+
+          <!-- Copywriting -->
+          <div class="mt-8 lg:flex lg:justify-between">
+            <div class="text-center lg:text-left mt-16">
                 <div class="">
-                  <p class="headline text-6xl tracking-normal">Banking<br> more smart</p>
-                  <p class="my-8 text-535354 text-xl">Meet the only spend management <br> platform and corporate card</p>
-                <i class="fa-solid fa-arrow-right p-4 bg-black text-white m-0"></i>
-                <a href="#" class="font-bold pl-4 pr-10 py-3">Get your card</a>
+                    <p class="headline text-6xl tracking-normal">Banking<br> more smart</p>
+                    <p class="my-8 text-535354 text-xl">Meet the only spend management <br> platform and corporate card</p>
+                    <i class="fa-solid fa-arrow-right p-4 my-10 bg-black text-white m-0 lg:mt-4 lg:mb-8"></i>
+                    <a href="#" class="font-bold pl-4 pr-10">Get your card</a>
                 </div>
             </div>
-            <div class="mt-8">
+
+            <!-- Visa Image -->
+            <div class="mt-4 lg:m-0">
                 <img src="..\assets\card.png" alt="" class="mx-auto">
+            </div>
+
+          </div>
+
+          <!-- Deal -->
+          <div class="text-center lg:text-left lg:flex lg:justify-between ">
+            <div class="">
+                <p class="font-bold font-bai-jamjuree text-xl pt-8 lg:text-2xl"><span class="text-2xl lg:text-3xl">Hot 🔥</span><br>deals for you</p>
+                <p class="font-roboto text-5F5F64 py-4 lg:w-64 lg:text-xl">Online shopping for retail sales direct to consumers</p>
+            </div>
+            <div class="grid grid-cols-3 gap-2 md:gap-7 md:ml-7 lg:gap-20 lg:ml-20">
+                <div class="py-4 lg:p-0">
+                    <img src="..\assets\icon-1.png" alt="" class="w-8 h-8 mx-auto lg:mx-0">
+                    <p class="font-inter font-bold py-2 lg:text-xl lg:mt-2">1.5% Cashback</p>
+                    <p class="py-4 font-roboto text-5F5F64 lg:text-xl lg:mt-4">Online shopping for retail sales direct to consumers</p>
+                </div>
+                <div class="py-4 lg:p-0">
+                    <img src="..\assets\icon-1.png" alt="" class="w-8 h-8 mx-auto lg:mx-0">
+                    <p class="font-inter font-bold py-2 lg:text-xl lg:mt-2">30-day terms</p>
+                    <p class="py-4 font-roboto text-5F5F64 lg:text-xl lg:mt-4">Online shopping for retail sales direct to consumers</p>
+                </div>
+                <div class="py-4 lg:p-0">
+                    <img src="..\assets\icon-1.png" alt="" class="w-8 h-8 mx-auto lg:mx-0">
+                    <p class="font-inter font-bold py-2 lg:text-xl lg:mt-2">Save money</p>
+                    <p class="py-4 font-roboto text-5F5F64 lg:text-xl lg:mt-4">Online shopping for retail sales direct to consumers</p>
+                </div>
             </div>
           </div>
     </header>
+
+    <!-- Main Body -->
+    <main>
+        <!-- Three-quarter Circle -->
+        <div class="mt-16 lg:mt-32">
+                <p class="three-quarters-circle mx-auto"></p>
+            </div>
+
+        <!-- Philosophy Section -->
+        <section id="philosophy" class="relative w-full h-full">
+            <div class="text-center mx-28 grid lg:text-left lg:grid-cols-2 lg:gap-40 lg:py-40 lg:mx-32">
+                <div class="mt-20 lg:mt-0 lg:ml-40">
+                    <p class="font-bai-jamjuree text-2xl tracker-wider">We Building <br>Social uniqueness</p>
+                    <p class="font-roboto text-lg my-4 text-5F5F64">The marketing strategy lays out target markets and the value.</p>
+                </div>
+                <div class="mt-20 lg:mt-0 lg:mr-40">
+                    <p class="font-bai-jamjuree text-2xl tracker-wider">Social Media <br>beyond probability</p>
+                    <p class="font-roboto text-lg my-4 text-5F5F64">Essentially a formula for how a business is going to compete.</p>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
 </body>
 </html>
