@@ -53,14 +53,18 @@ body {
     -webkit-transform: rotate(135deg);
   }
 
-  .text-718176 {
-      color: #718176;
-  }
+.text-718176 {
+    color: #718176;
+}
 
-  .bg-41B3F4 {
-      background-color: rgba(65,179,244,0.5)
-  }
+.bg-41B3F4 {
+    background-color: rgba(65,179,244,0.5)
+}
 
-  .text-727272 {
-      color: #727272;
-  }
+.text-727272 {
+    color: #727272;
+}
+
+.text-404041 {
+    color: #404041;
+} 
