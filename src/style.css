@@ -13,6 +13,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    background-color: #E5E5E5;
 }
 
 .headline {
@@ -43,16 +44,19 @@ body {
     width: 0px;
     height: 0px;
     border-radius: 30px;
-    border: 30px solid aqua;
+    border: 30px solid #45B3F2;
     border-top-color: transparent;
     -webkit-transform: rotate(135deg);
   }
 
-.three-quarters-circle-red {
-    width: 0px;
-    height: 0px;
-    border-radius: 5vw;
-    border: 5vw solid red;
-    border-top-color: transparent;
-    -webkit-transform: rotate(135deg);
+  .text-718176 {
+      color: #718176;
+  }
+
+  .bg-41B3F4 {
+      background-color: rgba(65,179,244,0.5)
+  }
+
+  .text-727272 {
+      color: #727272;
   }
