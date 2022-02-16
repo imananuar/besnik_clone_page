@@ -40,6 +40,10 @@ body {
     bottom: 1.9rem;
 }
 
+#subscribe {
+    background-color: #41B3F4;
+}
+
 .three-quarters-circle {
     width: 0px;
     height: 0px;
